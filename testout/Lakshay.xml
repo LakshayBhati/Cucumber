@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="27.461">
+<testcase classname="Test the SkillRary App" name="To test login with multiple positive data" time="10.166">
+<system-out><![CDATA[Given I should open the browser and navigate to the Skillrary app...........passed
+When Enter Username "user"..................................................passed
+And Enter Password "user"...................................................passed
+And Click on the LoginButton................................................passed
+Then I should see the username as "Harry Den"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the SkillRary App" name="To test login with multiple positive data 2" time="6.568">
+<system-out><![CDATA[Given I should open the browser and navigate to the Skillrary app...........passed
+When Enter Username "user"..................................................passed
+And Enter Password "user"...................................................passed
+And Click on the LoginButton................................................passed
+Then I should see the username as "Harry Den"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the SkillRary App" name="To test login with multiple positive data 3" time="6.13">
+<system-out><![CDATA[Given I should open the browser and navigate to the Skillrary app...........passed
+When Enter Username "admin".................................................passed
+And Enter Password "admin"..................................................passed
+And Click on the LoginButton................................................passed
+Then I should see the username as "SkillRary Admin".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the SkillRary App" name="To test the login with Invalid credentials" time="4.391">
+<system-out><![CDATA[Given I should open the browser and navigate to the Skillrary app...........passed
+When Enter Username "Lakshay"...............................................passed
+And Enter Password "admin"..................................................passed
+And Click on the LoginButton................................................passed
+Then I should navigate the "Register".......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

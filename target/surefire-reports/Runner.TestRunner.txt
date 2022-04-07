@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.501 sec <<< FAILURE!
+Logout Validation(OrangeHRM #2)  Time elapsed: 0.014 sec  <<< ERROR!
+java.lang.NullPointerException
+	at Definition.StepDefinition.click_on_welcome_menu(StepDefinition.java:57)
+	at ?.Click on Welcome Menu(file:///C:/Users/Administrator/eclipse-workspace/Cucumber/src/test/resources/Logout/Logout.feature:4)
+
